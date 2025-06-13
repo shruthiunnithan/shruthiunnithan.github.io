@@ -3,6 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: 'DM Serif Text';
+    src: url('../fonts/DMSerifText-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('../fonts/DMSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Alumni Sans Pinstripe';
+    src: url('../fonts/AlumniSansPinstripe-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roboto Flex';
+    src: url('../fonts/RobotoFlex-Regular.ttf') format('truetype');
+}
+
+
 html{
     font-size: 62.5%;
     
@@ -28,7 +48,6 @@ p{
 }
 
 a{
-    font-family: "Alumni Sans Pinstripe", sans-serif;
     color: #eaefd3;
     text-decoration: None;
 
@@ -68,9 +87,9 @@ nav{
 }
 
 nav a{
-    font-family: "Alumni Sans Pinstripe", sans-serif;
-    font-size: 3rem;
-    font-weight: 400;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-size: 3.25rem;
+    font-weight: 700;
 }
 
 .header-text-container{
